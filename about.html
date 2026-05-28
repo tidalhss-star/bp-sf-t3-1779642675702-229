@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <meta name="title" content="서버 웜업 & 구글 상위노출 대행 | 마포 맘카페 입소문">
+    <meta name="description" content="마포에서 서버 웜업과 구글 상위노출 대행, 진짜 엄마들이 직접 검증했습니다. 010-6279-0862 전화 한 통이면 서버가 깨어나고 키워드가 폭발합니다. 규칙 따위는 안 통하는 브루탈리즘 SEO.">
+    <meta name="keywords" content="구글 상위노출 대행, 서버 웜업, 마포, 엄마 카페, PBN, 검색엔진 최적화, 빅데이터, 롱테일 키워드, 마포 서버, 구글 상위 노출, 맘카페 추천">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sf-t3-1779642675702-229.pages.dev/">
+    <style>
+        /* RESET */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 16px;
+            -webkit-text-size-adjust: 100%;
+        }
+        body {
+            font-family: 'IBM Plex Mono', 'Courier New', monospace;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        /* TYPOGRAPHY DNA — Raw & Oversized */
+        h1, h2, h3, h4 {
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            text-transform: uppercase;
+            line-height: 1.1;
+        }
+        h1 {
+            font-size: clamp(2.8rem, 10vw, 6rem);
+            color: #ff2a6d;
+            text-shadow: 0 0 20px #ff2a6d88, 0 0 40px #ff2a6d44;
+        }
+        h2 {
+            font-size: clamp(2rem, 6vw, 3.5rem);
+            color: #05d9e8;
+            text-shadow: 0 0 15px #05d9e888;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        h3 {
+            font-size: clamp(1.5rem, 4vw, 2.2rem);
+            color: #ff2a6d;
+            margin-bottom: 0.5rem;
+        }
+        p, li, blockquote {
+            font-size: 1.125rem;
+            max-width: 70ch;
+        }
+        a {
+            color: #05d9e8;
+            text-decoration: underline wavy #ff2a6d 2px;
+            transition: all 0.2s;
+        }
+        a:hover {
+            color: #ff2a6d;
+            text-decoration: none;
+            background: #05d9e8;
+            padding: 0 0.2em;
+        }
+        strong, .accent {
+            color: #ff2a6d;
+            text-shadow: 0 0 10px #ff2a6d;
+        }
+        /* LAYOUT — FULL BLEED, NEGATIVE MARGINS, AIRY */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        section {
+            margin: 4rem 0;
+            padding: 2rem 0;
+            border-top: 4px solid #ff2a6d;
+            border-image: linear-gradient(90deg, #ff2a6d, #05d9e8) 1;
+        }
+        .full-bleed {
+            margin-left: calc(-50vw + 50%);
+            margin-right: calc(-50vw + 50%);
+            padding: 2rem 1rem;
+            background: #111;
+        }
+        /* hamburger-menu */
+        .hamburger-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background: #000;
+            border-bottom: 2px solid #ff2a6d;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .hamburger-menu .logo {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #05d9e8;
+            text-transform: uppercase;
+        }
+        .hamburger-menu .logo span {
+            color: #ff2a6d;
+        }
+        .hamburger-menu nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+        .hamburger-menu nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: 0.5rem 1rem;
+            border: 2px solid transparent;
+        }
+        .hamburger-menu nav a:hover {
+            border-color: #ff2a6d;
+            color: #ff2a6d;
+        }
+        .hamburger-menu .menu-toggle {
+            display: none;
+            font-size: 2rem;
+            color: #05d9e8;
+            cursor: pointer;
+        }
+        /* responsive-768 */
+        @media (max-width: 768px) {
+            .hamburger-menu nav ul {
+                display: none;
+                flex-direction: column;
+                background: #000;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                padding: 1rem;
+                border-bottom: 2px solid #ff2a6d;
+            }
+            .hamburger-menu nav ul.active {
+                display: flex;
+            }
+            .hamburger-menu .menu-toggle {
+                display: block;
+            }
+            h1 {
+                font-size: 2.5rem;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+            h3 {
+                font-size: 1.3rem;
+            }
+        }
+        /* Utilities */
+        .btn-pulse {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: #ff2a6d;
+            color: #000;
+            font-weight: 800;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 0 30px #ff2a6d88;
+            transition: 0.3s;
+        }
+        .btn-pulse:hover {
+            background: #05d9e8;
+            box-shadow: 0 0 50px #05d9e8;
+            transform: scale(1.05);
+        }
+        .card {
+            background: #111;
+            border: 2px solid #333;
+            padding: 2rem;
+            margin: 1rem 0;
+            transition: 0.3s;
+        }
+        .card:hover {
+            border-color: #ff2a6d;
+            box-shadow: 0 0 30px #ff2a6d44;
+        }
+        .faq-item {
+            border-bottom: 1px solid #333;
+            padding: 1.5rem 0;
+        }
+        .faq-item h4 {
+            cursor: pointer;
+            color: #05d9e8;
+            font-size: 1.3rem;
+        }
+        .faq-item p {
+            margin-top: 1rem;
+            color: #aaa;
+        }
+        footer {
+            text-align: center;
+            padding: 3rem 0;
+            border-top: 4px solid #05d9e8;
+            margin-top: 4rem;
+        }
+        footer .phone {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #ff2a6d;
+            text-shadow: 0 0 30px #ff2a6d;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <div class="hamburger-menu">
+        <div class="logo"><span>서</span>버<span>웜</span>업</div>
+        <nav>
+            <ul>
+                <li><a href="/">홈</a></li>
+                <li><a href="/services">서비스</a></li>
+                <li><a href="/info">정보</a></li>
+                <li><a href="/contact">연락처</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" onclick="document.querySelector('nav ul').classList.toggle('active')">☰</div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="container" style="border-top: none; margin-top: 2rem;">
+        <h1>정보: <span class="accent">서버 웜업</span>의 진실</h1>
+        <p style="font-size: 1.5rem; margin-top: 1rem;">마포 엄마들이 직접 검증한 <strong>구글 상위노출 대행</strong>, 여기 다 있다. 규칙 따위는 안 통하는 브루탈리즘 SEO, 당신의 서버를 깨우고 키워드를 폭발시킨다.</p>
+        <a href="tel:01062790862" class="btn-pulse" style="margin-top: 2rem;">010-6279-0862 지금 전화</a>
+    </section>
+
+    <!-- 상세 정보 섹션 -->
+    <section class="container">
+        <h2>마포 <span class="accent">맘카페</span> 입소문 비하인드</h2>
+        <div class="card">
+            <h3>왜 서버 웜업인가?</h3>
+            <p>서버가 잠들면 구글도 잠든다. 우리는 <strong>PBN 파워</strong>로 <strong>마포</strong> 지역 롱테일 키워드를 단기간에 상위 노출시킨다. 엄마들 사이에서는 "서버 깨우는 마녀"로 불린다. 실제 사례: '마포 서버 웜업' 키워드 2주 만에 구글 1페이지.</p>
+        </div>
+        <div class="card">
+            <h3>지역 시그널: 마포 주민들이 증명했다</h3>
+            <p>홍대, 합정, 상암동 엄마카페에서 입소문 폭발. "전화 한 통이면 서버가 살아난다"는 후기가 200개 이상. 우리 방식은 <strong>빅데이터</strong> 기반 롱테일 타겟팅 + 복제 불가능한 PBN 네트워크. 규범에 도전하는 브루탈리즘 전략.</p>
+        </div>
+        <div class="card">
+            <h3>직접 검증된 결과</h3>
+            <p>맘카페 회원 87%가 "서버 웜업 후 방문자 3배 증가" 확인. <strong>010-6279-0862</strong>로 전화하면 진짜 엄마들의 증언을 들을 수 있다. 빈말 아니다.</p>
+        </div>
+    </section>
+
+    <!-- FAQ 섹션 (브루탈리스트 스타일) -->
+    <section class="container">
+        <h2>자주 묻는 <span class="accent">도발</span></h2>
+        <div class="faq-item">
+            <h4>서버 웜업이 뭐야? 왜 필요해?</h4>
+            <p>구글 봇이 당신 서버를 방문할 때 서버가 느리면 봇이 떠난다. 우리는 서버를 미리 깨워 봇이 머물게 만든다. 결과? <strong>구글 상위노출 대행</strong> 없이도 자연 유입 폭발. 마포 엄마들은 이미 알고 있다.</p>
+        </div>
+        <div class="faq-item">
+            <h4>맘카페에서 입소문 난 이유는?</h4>
+            <p>엄마들은 가짜에 속지 않는다. 우리는 100% 실제 성과로 증명했다. 마포 지역 서버 웜업 후 구글 상위 10위 안에 안착, 그 후기들이 카페에 퍼졌다. 규칙을 따르지 않는 브루탈리즘 SEO가 통한 거다.</p>
+        </div>
+        <div class="faq-item">
+            <h4>PBN 모드가 뭔데?</h4>
+            <p>Private Blog Network. 우리만의 비밀 사이트 네트워크로 당신 서버에 권위를 주입한다. 마치 마포에서 가장 인기 있는 카페 리뷰 100개를 동시에 받는 것과 같다. 구글은 속지 않지만 우리는 더 교묘하다.</p>
+        </div>
+        <div class="faq-item">
+            <h4>직접 확인
+</body>
+</html>
